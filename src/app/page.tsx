@@ -1,4 +1,5 @@
 import Careers from "@/components/Careers";
+import ContactUs from "@/components/ContactUs";
 import Navbar from "@/components/Navbar";
 import Newsroom from "@/components/Newsroom";
 import Solutions from "@/components/Solutions";
@@ -14,6 +15,7 @@ export default function Home() {
       <Solutions />
       <Newsroom />
       <Careers />
+      <ContactUs />
     </div>
   );
 }
