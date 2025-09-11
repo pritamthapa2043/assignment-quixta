@@ -41,7 +41,7 @@ const Solutions = () => {
 
             {/* Cards grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-24 mt-40 pr-20">
-              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/20 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center">
+              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/20 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center bg-[url('/assets/images/card-bg1.webp')] bg-cover bg-center bg-no-repeat">
                 <div className="relative z-10 text-left w-full">
                   <h3 className="text-2xl md:text-3xl font-semibold text-white mb-4 md:mb-6">
                     Synthesis
@@ -58,10 +58,9 @@ const Solutions = () => {
                     <br /> aliqua.
                   </p>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-purple-600/80 to-blue-600/60"></div>
               </div>
 
-              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/40 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center">
+              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/40 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center bg-[url('/assets/images/card-bg2.webp')] bg-cover bg-center bg-no-repeat">
                 <div className="relative z-10 text-left w-full">
                   <h3 className="text-2xl md:text-3xl font-semibold text-white mb-4 md:mb-6">
                     Formulations
@@ -77,10 +76,9 @@ const Solutions = () => {
                     <br /> tempor incididunt.
                   </p>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-orange-500/80 to-red-500/60"></div>
               </div>
 
-              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/40 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center">
+              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/40 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center bg-[url('/assets/images/card-bg3.webp')] bg-cover bg-center bg-no-repeat">
                 <div className="relative z-10 text-left w-full">
                   <h3 className="text-2xl md:text-3xl font-semibold text-white mb-4 md:mb-6">
                     Diverse Materials
@@ -97,10 +95,9 @@ const Solutions = () => {
                     <br /> aliqua.
                   </p>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-yellow-400/60 to-green-400/40"></div>
               </div>
 
-              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/40 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center">
+              <div className="relative p-8 md:p-12 lg:p-16 rounded-2xl border border-gray-300/40 backdrop-blur-sm aspect-square max-h-[550px] overflow-hidden flex items-center bg-[url('/assets/images/card-bg4.webp')] bg-cover bg-center bg-no-repeat">
                 <div className="relative z-10 text-left w-full">
                   <h3 className="text-2xl md:text-3xl font-semibold text-white mb-4 md:mb-6">
                     Manipulation of Light
@@ -116,7 +113,6 @@ const Solutions = () => {
                     <br /> tempor incididunt.
                   </p>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-pink-500/80 to-purple-500/60"></div>
               </div>
             </div>
           </div>

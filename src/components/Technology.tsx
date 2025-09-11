@@ -25,12 +25,12 @@ const Technology = () => {
       <div className="relative w-full h-screen flex items-center justify-center">
         {/* Vertical gradient lines */}
         <div className="hidden md:flex absolute top-0 left-60 flex-row gap-[2px] h-full">
-          <div className="w-[3px] h-1/2 bg-gradient-to-b from-[#ff6b35] via-[#f7931e] via-[#c724b1] via-[#9333ea] to-[#6366f1]" />
+          <div className="w-[3px] h-1/2 bg-gradient-to-b from-[#ff6b35]  via-[#9333ea] to-[#6366f1]" />
           <div className="w-[8px] h-full flex flex-col">
-            <div className="h-1/2 bg-gradient-to-b from-[#ff6b35] via-[#f7931e] via-[#c724b1] via-[#9333ea] to-[#6366f1]" />
+            <div className="h-1/2 bg-gradient-to-b from-[#ff6b35]  via-[#9333ea] to-[#6366f1]" />
             <div className="h-1/2 bg-gray-700" />
           </div>
-          <div className="w-[3px] h-1/2 bg-gradient-to-b from-[#ff6b35] via-[#f7931e] via-[#c724b1] via-[#9333ea] to-[#6366f1]" />
+          <div className="w-[3px] h-1/2 bg-gradient-to-b from-[#ff6b35]  via-[#9333ea] to-[#6366f1]" />
         </div>
 
         {/* Main container */}
@@ -90,11 +90,100 @@ const Technology = () => {
       </div>
 
       {/* Subsection 3: Two viewport height */}
-      <div className="w-full h-[200vh] flex items-center justify-center ">
-        <div className="text-center px-6 md:px-20">
-          <h2 className="text-white text-4xl md:text-6xl font-bold mb-6">
-            Subsection 3
-          </h2>
+      <div className=" relative w-full h-[200vh] flex items-center justify-center ">
+        {/* Vertical gradient lines */}
+        <div>
+          <div className="hidden md:flex absolute top-0 left-55 flex-row gap-[2px] h-full">
+            <div className="w-[3px] h-[10%] bg-gradient-to-b from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+
+            <div className="w-[8px] h-[10%] bg-gradient-to-b from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+
+            <div className="w-[3px] h-[10%] bg-gradient-to-b from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+          </div>
+          <div className="hidden md:flex absolute top-40 right-60 flex-col gap-[4px] w-[75%]">
+            <div className="h-[3px] w-full bg-gradient-to-l from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+
+            <div className="h-[8px] w-full bg-gradient-to-l from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+
+            <div className="h-[3px] w-full bg-gradient-to-l from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+          </div>
+          <div className="hidden md:flex absolute top-40 right-60 flex-row gap-[2px] h-full">
+            <div className="w-[3px] h-[40%] bg-gradient-to-b from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+
+            <div className="w-[8px] h-[40%] bg-gradient-to-b from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+
+            <div className="w-[3px] h-[40%] bg-gradient-to-b from-[#ff6b35] via-[#9333ea] to-[#6366f1]" />
+          </div>
+          <div className="hidden md:flex absolute top-222 right-61 flex-row gap-[2px] h-full">
+            <div className="w-[8px] h-[50%] bg-gray-700" />
+          </div>
+        </div>
+
+        <div className="absolute top-140 left-20 w-[1000px]  flex flex-col items-end gap-10">
+          <div className="min-h-screen bg-black text-white">
+            <div className="px-8 py-16 lg:px-16 mb-20">
+              <h1 className="text-4xl lg:text-5xl font-light leading-tight text-balance max-w-2xl">
+                Advanced Materials and
+                <br />
+                Integrative Solutions
+              </h1>
+            </div>
+
+            {/* Content Sections */}
+            <div className="px-8 lg:px-16 space-y-24 ">
+              {/* Idylle Section */}
+              <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start ">
+                <div className="space-y-6">
+                  <div className="text-5xl font-light">ïdylle</div>
+                </div>
+                <div className="space-y-6">
+                  <h2 className="text-lg lg:text-xl font-light leading-relaxed text-balance mb-16">
+                    Securing every physical product
+                    <br />
+                    for counterfeit protection
+                  </h2>
+                  <p className="text-gray-300 leading-relaxed max-w-lg mb-14">
+                    Reval™ makes it easy for brand owners and governments to
+                    effectively identify counterfeits, secure revenues and
+                    preserve brand integrity.
+                  </p>
+                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-medium transition-colors">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+
+              {/* Labscoop Section */}
+              <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+                <div className="space-y-6">
+                  <div className="flex flex-col space-y-1">
+                    <Image
+                      src="/assets/svg/Svg1.svg"
+                      alt="Logo 1"
+                      width={140}
+                      height={140}
+                      className="sm:w-[90px] md:w-[100px]"
+                    />
+                  </div>
+                </div>
+                <div className="space-y-6">
+                  <h2 className="text-lg lg:text-xl font-light leading-relaxed text-balance mb-16">
+                    Accelerating biomedical research
+                    <br />
+                    with next-generation bio-probes
+                  </h2>
+                  <p className="text-gray-300 leading-relaxed max-w-lg mb-14">
+                    Lumincell empowers researchers to achieve breakthroughs at a
+                    faster pace by powering long live-cell tracking and deep
+                    tissue bio-imaging.
+                  </p>
+                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-medium transition-colors">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
