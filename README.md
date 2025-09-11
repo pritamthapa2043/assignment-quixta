@@ -47,6 +47,6 @@ The goal is to deliver a pixel-perfect implementation of the design while follow
 
 This project is deployed on **Vercel**.
 
-🔗 **Live Demo:** [https://your-vercel-app.vercel.app]
+🔗 **Live Demo:** [https://pritam-thapa-assignment.vercel.app/]
 
 ---
